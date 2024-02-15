@@ -1,0 +1,121 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+  max-width: 920px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background: var(--bg);
+  width: 100%;
+}
+
+.heading {
+  color: var(--color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+.date {
+  color: var(--color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px 15px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.name {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color);
+  background: var(--bg);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.351px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.yesterDayToday {
+  border: var(--border);
+  box-shadow: var(--boxShadow);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.box {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.today {
+  border-top: var(--border);
+  border-radius: 0 0 10px 10px;
+}
+.box .title {
+  color: var(--color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box .title .icon {
+  margin-top: 3px;
+}
+.listContainer {
+  padding-left: 15px;
+}
+
+.box .info {
+  color: var(--color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
